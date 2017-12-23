@@ -1,0 +1,59 @@
+=======================================================================================================================
+BibleGraph notes
+=======================================================================================================================
+
+Graph db options:
+	OrientDB - Gremlin version is older (2.4, but current is 3.2)
+	JanusGraph - current Gremlin support, focus on property graphs
+	BlazeGraph - focus on knowledge graphs, older Gremlin support
+	Stardog - focus on knowledge graphs
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Grails:
+	curl -O start.grails.org/biblegraph.zip -d version=3.3.2 -d profile=rest-api
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Git:
+	* How to use personal "crazysmoove" Git account instead of work "chris-roberts-ddi" account?
+	1. In a terminal, generate a new key for personal account:
+		$ ssh-keygen -t rsa -b 4096 -C "chris.l.roberts@gmail.com"
+	   Save the file in "/c/Users/chris/.ssh/id_rsa-gmail" and don't set a passphrase.
+	   See instructions here: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+	   but skip the part about adding the key to your ssh-agent, and see note below about how to test.
+	2. In GitHub, go to your account settings (not the repository settings), then "SSH and PGP keys."
+	   Click "New SSH key", give the new key a title, and paste in the text of the file you just created
+	   ("/c/Users/chris/.ssh/id_rsa-gmail"). Save the new key. 
+	3. Back in the terminal, test the new key:
+		$ ssh -i /c/Users/chris/.ssh/id_rsa-gmail -T git@github.com
+	   You should see "Hi crazysmoove! You've successfully authenticated, but GitHub does not provide shell access."
+	4. Use the "core.sshCommand" config variable in Git to associate the new key with the current repo.
+		$ cd ./biblegraph # project root
+		$ git config --local user.name 'crazysmoove'
+		$ git config --local user.email 'chris.l.roberts@gmail.com'
+		$ git config --local core.sshCommand 'ssh -i /c/Users/chris/.ssh/id_rsa-gmail' # use the new key for commits
+	5. Make sure the repo exists in GitHub first.
+    6. Add, commit, and push to test the new setting:
+    	$ git add .
+    	$ git commit -m 'Initial commit'
+    	$ git remote add origin git@github.com:crazysmoove/biblegraph.git
+    	$ git remote -v # verify the previous command
+    	$ git push origin master # this is the real test
+
+-----------------------------------------------------------------------------------------------------------------------
+    	
+Data Sources:
+
+    List of books: 
+        https://www.blueletterbible.org/study/misc/66books.cfm
+        https://www.biblegateway.com/versions/New-International-Version-NIV-Bible/#booklist
+        
+    Book abbreviations:
+        https://www.logos.com/bible-book-abbreviations
+        
+    Other:
+        http://simoncozens.github.io/open-source-bible-data/
+        http://www.hackathon.bible/data.html
+        http://openscriptures.org/
+        https://www.blueletterbible.org/resources/charts.cfm

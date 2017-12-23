@@ -1,0 +1,67 @@
+id|name|long_abbreviation|short_abbreviation|canon_order
+1|Genesis|Gen|Ge|1
+2|Exodus|Exod|Ex|2
+3|Leviticus|Lev|Le|3
+4|Numbers|Num|Nu|4
+5|Deuteronomy|Deut|De|5
+6|Joshua|Josh|Jos|6
+7|Judges|Judg|Jdg|7
+8|Ruth|Ruth|Ru|8
+9|1 Samuel|1 Sam|1Sa|9
+10|2 Samuel|2 Sam|2Sa|10
+11|1 Kings|1 Kings|1Ki|11
+12|2 Kings|2 Kings|2Ki|12
+13|1 Chronicles|1 Chron|1Ch|13
+14|2 Chronicles|2 Chron|2Ch|14
+15|Ezra|Ezra|Ezr|15
+16|Nehemiah|Neh|Ne|16
+17|Esther|Est|Es|17
+18|Job|Job|Jb|18
+19|Psalms|Psa|Ps|19
+20|Proverbs|Prov|Pr|20
+21|Ecclesiastes|Eccles|Ec|21
+22|Song of Solomon|Song|So|22
+23|Isaiah|Isa|Is|23
+24|Jeremiah|Jer|Je|24
+25|Lamentations|Lam|La|25
+26|Ezekiel|Ezek|Ezk|26
+27|Daniel|Dan|Da|27
+28|Hosea|Hos|Ho|28
+29|Joel|Joel|Jl|29
+30|Amos|Amos|Am|30
+31|Obadiah|Obad|Ob|31
+32|Jonah|Jonah|Jnh|32
+33|Micah|Mic|Mc|33
+34|Nahum|Nah|Na|34
+35|Habakkuk|Hab|Hb|35
+36|Zephaniah|Zeph|Zp|36
+37|Haggai|Hag|Hg|37
+38|Zechariah|Zech|Zc|38
+39|Malachi|Mal|Ml|39
+40|Matthew|Matt|Mt|40
+41|Mark|Mark|Mk|41
+42|Luke|Luke|Lk|42
+43|John|John|Jn|43
+44|Acts|Acts|Ac|44
+45|Romans|Rom|Ro|45
+46|1 Corinthians|1 Cor|1Co|46
+47|2 Corinthians|2 Cor|2Co|47
+48|Galatians|Gal|Ga|48
+49|Ephesians|Ephes|Eph|49
+50|Philippians|Phil|Php|50
+51|Colossians|Col|Co|51
+52|1 Thessalonians|1 Thess|1Th|52
+53|2 Thessalonians|2 Thess|2Th|53
+54|1 Timothy|1 Tim|1Ti|54
+55|2 Timothy|2 Tim|2Ti|55
+56|Titus|Titus|Ti|56
+57|Philemon|Philem|Phm|57
+58|Hebrews|Heb|He|58
+59|James|Jas|Ja|59
+60|1 Peter|1 Pet|1Pe|60
+61|2 Peter|2 Pet|2Pe|61
+62|1 John|1 John|1Jn|62
+63|2 John|2 John|2Jn|63
+64|3 John|3 John|3Jn|64
+65|Jude|Jude|Jd|65
+66|Revelation|Rev|Re|66

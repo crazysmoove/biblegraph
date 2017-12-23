@@ -1,0 +1,3 @@
+id|name|canon_order
+1|Old Testament|1
+2|New Testament|2
