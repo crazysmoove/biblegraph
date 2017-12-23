@@ -1,2 +1,5 @@
-- Sections of the Bible (Major/Minor Prophets, Gospels, etc.)
-- 
+Features
+    - Sections of the Bible (Major/Minor Prophets, Gospels, etc.)
+    
+Technology
+    - Consider a polyglot persistence strategy (relational + graph)

@@ -40,6 +40,11 @@ Git:
     	$ git remote add origin git@github.com:crazysmoove/biblegraph.git
     	$ git remote -v # verify the previous command
     	$ git push origin master # this is the real test
+    Sources:
+        https://erik.doernenburg.com/2017/12/using-multiple-github-accounts/
+        https://help.github.com/articles/testing-your-ssh-connection/
+    Another approach (using hostname aliases for different GitHub accounts):
+        https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574
 
 -----------------------------------------------------------------------------------------------------------------------
     	
@@ -56,4 +61,18 @@ Data Sources:
         http://simoncozens.github.io/open-source-bible-data/
         http://www.hackathon.bible/data.html
         http://openscriptures.org/
+        https://github.com/openscriptures
         https://www.blueletterbible.org/resources/charts.cfm
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Technologies:
+
+    Apache Tinkerpop:
+        https://github.com/krlawrence/graph
+        http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html
+        http://tinkerpop.apache.org/docs/current/reference/
+    
+    JanusGraph database:
+        http://janusgraph.org/
+        http://docs.janusgraph.org/0.2.0/
